@@ -4,19 +4,50 @@
    Author's custom styles
    ========================================================================== */
 
+.jumbotron{
+	
+	background-color:#dcedff;
+	border-radius: 0rem;
+	padding-bottom: 1rem;
+}
+
+
+.badge-success{
+	background-color:#007bff;
+}
+
+.badge-hashtag{
+	background-color:#343a40;
+	color: white;
+}
 
 
 
+h1, h2{
+	color: #343a40;
+}
+
+a{
+	color: #0062cc;
+}
+
+.img-circle {
+    border-radius: 50%;
+    width: 40%;
+}
+
+img {
+    margin: auto;    
+    display: block;
+}
 
 
+.name{
+	padding-top:10px;
+	text-align:center;
+	
+}
 
-
-
-
-
-
-
-
-
-
-
+.name a{
+	color: white;
+}
