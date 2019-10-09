@@ -6,13 +6,13 @@
 
 .jumbotron{	
 
-	background-color:#dcedff;	
-	border-radius: 0rem;	
+	background-color:#dcedff !important;	
+	border-radius: 0rem !important;	
 
 }	
 
 .badge-success{	
-	background-color:#007bff;	
+	background-color:#007bff !important;	
 }	
 
 
