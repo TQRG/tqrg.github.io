@@ -4,7 +4,11 @@
    Author's custom styles
    ========================================================================== */
 
-.jumbotron {
+#leaf{
+    background-color:#dcedff;
+ 	border-radius: 0rem;	
+}
+#home{
     background: #000 url("../img/quasar.jpg") no-repeat center center;
     background-size: 100% 100%;
     -moz-background-size: 100% 100%;
@@ -12,6 +16,7 @@
     -o-background-size: 100% 100%;
     color: #fff;
     height: calc(100vh);
+    border-radius: 0rem;
 }
 
 
@@ -86,7 +91,7 @@ i.separator {
 }
 main div.container-fluid {
     width:100%; 
-    margin-top: 35%;
+    margin-top: 20%;
 }
 
 main h1.title {
