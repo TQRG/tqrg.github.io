@@ -4,13 +4,109 @@
    Author's custom styles
    ========================================================================== */
 
-.jumbotron{	
+.jumbotron {
+    background: #000 url("../img/quasar.jpg") no-repeat center center;
+    background-size: 100% 100%;
+    -moz-background-size: 100% 100%;
+    -webkit-background-size: 100% 100%;
+    -o-background-size: 100% 100%;
+    color: #fff;
+    height: calc(100vh);
+}
 
-	background-color:#dcedff;	
-	border-radius: 0rem;	
 
-}	
+header nav {
+    display: flex;
+    justify-content: flex-end;
+}
 
+header a.nav-link {
+   color: white;
+   font-size: 160%;
+   font-weight: 100;
+}
+
+header li.nav-item {
+    padding: 0 6px;
+}
+header a:hover.nav-link{
+    color: rgb(123,184,208);
+    font-size: 170%;
+    text-decoration: none;
+}
+
+header h2.navbar-brand {
+    font-weight: bold;
+    font-size: 200%;
+    color: white;
+}
+
+main h1 {
+    color: white;
+}
+
+header h2.navbar-brand:hover {
+    color: rgb(123,184,208);
+}
+
+hr {
+    overflow: visible; /* For IE */
+    padding: 0;
+    border: none;
+    border-top: medium solid #FFFF;
+    color: #FFFF;
+    text-align: center;
+}
+
+main div.line {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+}
+
+main hr {
+  border: 0;
+  border-top: 0.5px solid white;
+  flex: 1;
+  z-index: 1;
+}
+
+main i{
+  color: white;
+  font-size: 48px;
+  display: inline-block;
+  content: ''
+}
+
+i.separator {
+    color: white;
+    font-size: 5px;
+    margin-top: 15px;
+}
+main div.container-fluid {
+    width:100%; 
+    margin-top: 35%;
+}
+
+main h1.title {
+    font-weight: 100;
+}
+
+main span.acronym {
+    font-weight: 500;
+}
+
+.custom-toggler.navbar-toggler {
+    border-color: rgb(256,256,256);
+}
+.custom-toggler .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(256,256,256, 0.7)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+.nav-item{
+    text-align: center;
+}
 .badge-success{	
 	background-color:#007bff;	
 }	

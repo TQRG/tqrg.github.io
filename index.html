@@ -16,6 +16,7 @@
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css" integrity="sha384-Zug+QiDoJOrZ5t4lssLdxGhVrurbmBWopoEl+M6BdEfwnCJZtKxi1KgxUyJq13dy" crossorigin="anonymous">
 		
 		<link rel="stylesheet" href="./css/main.css">
+        <script src='https://kit.fontawesome.com/a076d05399.js'></script>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
     </head>
@@ -25,20 +26,58 @@
         <![endif]-->
 
     <!-- Main jumbotron for a primary marketing message or call to action -->
-    <div class="jumbotron">
-      <div class="container">
-		<h1><strong>TQRG</strong>&nbsp;&nbsp;-&nbsp;<strong>T</strong>he <strong>Q</strong>uasar <strong>R</strong>esearch <strong>G</strong>roup</h1>
-				<p><span class="badge badge-hashtag">#softwareengineering</span>&nbsp;<span class="badge badge-hashtag">#testing</span>&nbsp;<span class="badge badge-hashtag">#debugging</span>&nbsp;<span class="badge badge-hashtag">#energy</span>&nbsp;<span class="badge badge-hashtag">#security</span>&nbsp;<span class="badge badge-hashtag">#artificialintelligence</span></p>	        <!-- <p></p> -->
-				<br>	
-		        <p><span class="badge badge-success">News</span>&nbsp;&nbsp;&nbsp;Medium post on <a href="https://medium.com/ase-conference/pangolin-an-sfl-based-toolset-for-feature-localization-445fc9cef45e">"Pangolin: An SFL-based Toolset for Feature Localization"</a> (paper accepted at <a href="https://2019.ase-conferences.org/">ASE'19</a>)	
-				</p>
-      </div>
-	  
+    
+    <div class="jumbotron" id="home">
+        <header class="container">
+            <nav class="navbar navbar-expand-lg">
+                <h2 class="navbar-brand">TQRG</h2>
+                <button class="navbar-toggler custom-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#home">Home <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#members">Members</a>
+                        </li>
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#projects">Projects</a>
+                        </li>
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#publications">Publications</a>
+                        </li>
+            </nav>
+       </header>
+       <main>
+           <div class="out container-fluid">
+                <div class="in container-fluid">
+                    <div class="row text-center justify-content-center">
+                        <h1 class="title display-4">
+                            <span class="acronym">T</span>he 
+                            <span class="acronym">Q</span>uasar 
+                            <span class="acronym">R</span>esearch 
+                            <span class="acronym">G</span>roup</h1>
+                    </div>
+                    <div class="line">
+                        <hr>
+                            <i class='fab fa-galactic-senate'></i>
+                        <hr>
+                    </div>
+                </div>
+           </div>
+       </main>
+
+    </div>
     </div>
 
-   <div class="container">	
+
+
+    <div class="container">	
 	   
-          <h2>Members</h2>	
+          <h2 id="members">Members</h2>	
    	   <br>	
           <div class="row">	
    	       <div class="col-md-3 element">	
@@ -91,7 +130,7 @@
     <div class="container">
 	    <br/>
 		
-        <h2>Projects</h2>
+        <h2 id="projects">Projects</h2>
 	    <br/>
 		
         <div class="list-group">
@@ -125,7 +164,7 @@
     <div class="container">
 
 	   <br>	
-	           <h2>Relevant Publications</h2>	
+	           <h2 id="publications">Relevant Publications</h2>	
 	   		<br>	
 	   		<span class="badge badge-hashtag">2019</span>	
 	           <ul>	
