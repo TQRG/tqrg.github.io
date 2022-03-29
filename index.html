@@ -2,360 +2,506 @@
 <!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang=""> <![endif]-->
 <!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8" lang=""> <![endif]-->
 <!--[if IE 8]>         <html class="no-js lt-ie9" lang=""> <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js" lang=""> <!--<![endif]-->
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-        <title>TQRG</title>
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css" integrity="sha384-Zug+QiDoJOrZ5t4lssLdxGhVrurbmBWopoEl+M6BdEfwnCJZtKxi1KgxUyJq13dy" crossorigin="anonymous">
-		
-		<link rel="stylesheet" href="./css/main.css">
-        <script src='https://kit.fontawesome.com/a076d05399.js'></script>
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-        <script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
-        <!-- Global site tag (gtag.js) - Google Analytics -->
-        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-150265234-1"></script>
-<script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
-        gtag('js', new Date());
+<!--[if gt IE 8]><!-->
+<html class="no-js" lang="">
+<!--<![endif]-->
 
-        gtag('config', 'UA-150265234-1');
-        </script>
-    </head>
-    <body>
-    
-    <div class="jumbotron" id="home">
-        <header class="container">
-            <nav class="navbar navbar-expand-lg">
-                <h2 class="navbar-brand">TQRG</h2>
-                <button class="navbar-toggler custom-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-                </button>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<title>TQRG</title>
+	<script>
+		window.onload = function () {
+			const destination = window.location.href;
+			if (window.location.href.includes("tqrg.github.io/sec-com")) {
+				const redirectLocation = window.location.href.replace(
+					"tqrg.github.io/sec-com",
+					"tqrg.github.io/secom"
+				);
+				document.getElementById("body").innerHTML = "SECOM has moved into a new repository!<br/><br/>Redirecting to " + redirectLocation + " ...";
+				window.location.href = redirectLocation;
+			}
+		}
+	</script>
+	<meta name="description" content="">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css"
+		integrity="sha384-Zug+QiDoJOrZ5t4lssLdxGhVrurbmBWopoEl+M6BdEfwnCJZtKxi1KgxUyJq13dy" crossorigin="anonymous">
 
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav ml-auto">
-                        <li class="nav-item active">
-                            <a class="nav-link" href="#home">Home <span class="sr-only">(current)</span></a>
-                        </li>
-                        <li class="nav-item active">
-                            <a class="nav-link" href="#members">Members</a>
-                        </li>
-                        <li class="nav-item active">
-                            <a class="nav-link" href="#projects">Projects</a>
-                        </li>
-                        <li class="nav-item active">
-                            <a class="nav-link" href="#publications">Publications</a>
-                        </li>
-            </nav>
-       </header>
-       <main>
-           <div class="out container-fluid">
-                <div class="in container-fluid">
-                    <div class="row text-center justify-content-center">
-                        <h1 class="title display-4">
-                            <span class="acronym">T</span>he 
-                            <span class="acronym">Q</span>uasar 
-                            <span class="acronym">R</span>esearch 
-                            <span class="acronym">G</span>roup</h1>
-                    </div>
-                </div>
-           </div>
-       </main>
+	<link rel="stylesheet" href="./css/main.css">
+	<script src='https://kit.fontawesome.com/a076d05399.js'></script>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-150265234-1"></script>
+	<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag() { dataLayer.push(arguments); }
+		gtag('js', new Date());
 
-    </div>
-    </div>
+		gtag('config', 'UA-150265234-1');
+	</script>
+</head>
 
+<body>
 
+	<div class="jumbotron" id="home">
+		<header class="container">
+			<nav class="navbar navbar-expand-lg">
+				<h2 class="navbar-brand">TQRG</h2>
+				<button class="navbar-toggler custom-toggler" type="button" data-toggle="collapse"
+					data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+					aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				</button>
 
-    <div class="container">	
-	   
-          <h2 id="members">Members</h2>	
-   	   <br>	
-          <div class="row">	
-   	       <div class="col-md-3 element">	
-   	         <img class="img-circle" src="https://pbs.twimg.com/profile_images/729162561996783617/OGhVHVRI_400x400.jpg">	
-   	         	<p class="name">	
-   						<span class="badge badge-hashtag"><a href="https://ruimaranhao.com/">Rui Abreu</a></span>	
-                    <span class="badge badge-success">Group Leader</span>
-   				</p>
+				<div class="collapse navbar-collapse" id="navbarSupportedContent">
+					<ul class="navbar-nav ml-auto">
+						<li class="nav-item active">
+							<a class="nav-link" href="#home">Home <span class="sr-only">(current)</span></a>
+						</li>
+						<li class="nav-item active">
+							<a class="nav-link" href="#members">Members</a>
+						</li>
+						<li class="nav-item active">
+							<a class="nav-link" href="#projects">Projects</a>
+						</li>
+						<li class="nav-item active">
+							<a class="nav-link" href="#publications">Publications</a>
+						</li>
+			</nav>
+		</header>
+		<main>
+			<div class="out container-fluid">
+				<div class="in container-fluid">
+					<div class="row text-center justify-content-center">
+						<h1 class="title display-4">
+							<span class="acronym">T</span>he
+							<span class="acronym">Q</span>uasar
+							<span class="acronym">R</span>esearch
+							<span class="acronym">G</span>roup
+						</h1>
+					</div>
+				</div>
+			</div>
+		</main>
 
-   	       </div>	
-         	 	<div class="col-md-3 element">	
-           	   <img class="img-circle" src="https://avatars3.githubusercontent.com/u/534958?s=400&u=a01b329037b3c4179699680736729665c0ff4356&v=4/">	
-   		   <p class="name">	
-   				   <span class="badge badge-hashtag"><a href="https://www.linkedin.com/in/alexandrecperez/">Alexandre Perez</a></span>	
-   		   </p>	
-         		</div>	
-          	 	<div class="col-md-3 element">	
-            	   <img class="img-circle" src="https://pbs.twimg.com/profile_images/1042051856439099393/f8KuJ0um_400x400.jpg">	
-   			   <p class="name">	
-   					   <span class="badge badge-hashtag"><a href="https://durieux.me/">Thomas Durieux</a></span>	
-   			   </p>	
-          		</div>	
-
-          	 	<div class="col-md-3 element">	
-            	   <img class="img-circle" src="https://pbs.twimg.com/profile_images/803913678559072256/CysNUrH9_400x400.jpg">	
-   			   <p class="name">	
-   					   <span class="badge badge-hashtag"><a href="https://luiscruz.github.io/">Luis Cruz</a><span>	
-   			   </p>	
-          		</div>	
-
-   	</div>	
-   	<br>	
-   	<div class="row">	
-          	 	<div class="col-md-3 element">	
-            	   <img class="img-circle" src="https://avatars1.githubusercontent.com/u/6732277?s=460&u=37718c8e0d5e41951de5c4bbcf745d2852e8cd37&v=4">	
-   			   <p class="name">	
-   					  <span class="badge badge-hashtag"> <a href="https://sofiaoreis.github.io/">Sofia Reis</a></span>	
-   			   </p>	
-          		</div>	
-          	 	<div class="col-md-3 element">	
-            	   <img class="img-circle" src="https://pbs.twimg.com/profile_images/1173972649132875777/qWR0Y5nl_400x400.jpg">	
-   			   <p class="name">	
-   					  <span class="badge badge-hashtag"> <a href="https://brunosottomayor.com/">Bruno Sotto-Mayor</a> </span>	
-   			   </p>	
-          		</div>	
-                <div class="col-md-3 element">	
-            	   <img class="img-circle" src="img/joao_ferreira.png">	
-   			   <p class="name">	
-   					   <span class="badge badge-hashtag"><a href="http://joaoff.com/">João Ferreira</a><span>	
-   			   </p>	
-          		</div>	
-
-          	 	<div class="col-md-3 element">	
-            	   <img class="img-circle" src="img/ricardo_martins.jpg">	
-   			   <p class="name">	
-   					   <span class="badge badge-hashtag"><a href="https://www.linkedin.com/in/ricardo-martins-566028117/">Ricardo Martins</a><span>	
-   			   </p>	
-          		</div>	
+	</div>
+	</div>
 
 
 
-	  </div>	
-	  <br>	
-	  <div class="row">	
-				  <div class="col-md-3 element">	
-				  <img class="img-circle" src="img/francisco.png">	
-				 <p class="name">	
-						<span class="badge badge-hashtag"> <a href="https://scholar.google.com/citations?user=zTLXgZgAAAAJ">Francisco Ribeiro</a></span>	
-				 </p>	
-				 </div>	
-				  <div class="col-md-3 element">	
-				  <img class="img-circle" src="img/nuno.jpg">	
-				 <p class="name">	
-						<span class="badge badge-hashtag"> <a href="https://www.linkedin.com/in/nuno-sabino-4105a0123/">Nuno Sabino</a> </span>	
-				 </p>	
-				 </div>	
-			   <div class="col-md-3 element">	
-				<img class="img-circle" src="https://media-exp1.licdn.com/dms/image/C4D03AQGM9deeVhh6gA/profile-displayphoto-shrink_800_800/0/1576884763179?e=1622073600&v=beta&t=xCfR31S0KWBfQxC_3QY1MQr8BnZljbKbuzvSIyynFDY">	
-				<p class="name">	
-					   <span class="badge badge-hashtag"> <a href="https://www.linkedin.com/in/david-coimbra-2b290812a/">David Coimbra</a> </span>	
+	<div class="container">
+
+		<h2 id="members">Members</h2>
+		<br>
+		<div class="row">
+			<div class="col-md-3 element">
+				<img class="img-circle"
+					src="https://pbs.twimg.com/profile_images/729162561996783617/OGhVHVRI_400x400.jpg">
+				<p class="name">
+					<span class="badge badge-hashtag"><a href="https://ruimaranhao.com/">Rui Abreu</a></span>
+					<span class="badge badge-success">Group Leader</span>
 				</p>
-				 </div>	
 
-				  <div class="col-md-3 element">	
+			</div>
+			<div class="col-md-3 element">
+				<img class="img-circle"
+					src="https://avatars3.githubusercontent.com/u/534958?s=400&u=a01b329037b3c4179699680736729665c0ff4356&v=4/">
+				<p class="name">
+					<span class="badge badge-hashtag"><a href="https://www.linkedin.com/in/alexandrecperez/">Alexandre
+							Perez</a></span>
+				</p>
+			</div>
+			<div class="col-md-3 element">
+				<img class="img-circle"
+					src="https://pbs.twimg.com/profile_images/1042051856439099393/f8KuJ0um_400x400.jpg">
+				<p class="name">
+					<span class="badge badge-hashtag"><a href="https://durieux.me/">Thomas Durieux</a></span>
+				</p>
+			</div>
 
-				 </div>	
+			<div class="col-md-3 element">
+				<img class="img-circle"
+					src="https://pbs.twimg.com/profile_images/803913678559072256/CysNUrH9_400x400.jpg">
+				<p class="name">
+					<span class="badge badge-hashtag"><a href="https://luiscruz.github.io/">Luis Cruz</a><span>
+				</p>
+			</div>
 
-	 </div>	
-   </div>
-    <br/>
-    <div class="container">
-	    <br/>
-		
-        <h2 id="projects">Projects</h2>
-	    <br/>
-		
-        <div class="list-group">
-          <a href="http://www.gzoltar.com" target='_blank' class="list-group-item list-group-item-action">
-              GZoltar
-              <small>Automatic Testing &amp; Debugging using Spectrum-based Fault Localization (SFL)</small>
-          </a>
-          <a href="https://tqrg.github.io/physalia/" target='_blank' class="list-group-item list-group-item-action">
-              Physalia
-              <small>Energy measurement framework for mobile apps</small>
-          </a>
-          <a href="https://tqrg.github.io/projects/leafactor.html" target='_blank' class="list-group-item list-group-item-action">
-              Leafactor
-              <small>Automatic refactor for energy efficiency</small>
-          </a>
-          <a href="https://tqrg.github.io/energy-patterns/" target='_blank' class="list-group-item list-group-item-action">
-                        Energy Patterns
-                        <small>open database of energy-related design patterns for mobile apps (iOS and Android)</small>
-                    </a>
-          <a href="https://luiscruz.github.io/android_test_inspector/" target='_blank' class="list-group-item list-group-item-action">
-            Android Test Inspector
-            <small>Android App Hall of Fame</small>
-          </a>
-          <a href="https://tqrg.github.io/pangolin/" target='_blank' class="list-group-item list-group-item-action">
-            Pangolin
-            <small>A software visualization toolset for feature localization</small>
-          </a>
-	<a href="https://tqrg.github.io/secbench/" target='_blank' class="list-group-item list-group-item-action">
-		SecBench: 
-	<small>A Database of Existing Security Vulnerabilities to Enable Evaluation of Techniques</small>
-		
-	</a>
+		</div>
+		<br>
+		<div class="row">
+			<div class="col-md-3 element">
+				<img class="img-circle"
+					src="https://avatars1.githubusercontent.com/u/6732277?s=460&u=37718c8e0d5e41951de5c4bbcf745d2852e8cd37&v=4">
+				<p class="name">
+					<span class="badge badge-hashtag"> <a href="https://sofiaoreis.github.io/">Sofia Reis</a></span>
+				</p>
+			</div>
+			<div class="col-md-3 element">
+				<img class="img-circle"
+					src="https://pbs.twimg.com/profile_images/1173972649132875777/qWR0Y5nl_400x400.jpg">
+				<p class="name">
+					<span class="badge badge-hashtag"> <a href="https://brunosottomayor.com/">Bruno Sotto-Mayor</a>
+					</span>
+				</p>
+			</div>
+			<div class="col-md-3 element">
+				<img class="img-circle" src="img/joao_ferreira.png">
+				<p class="name">
+					<span class="badge badge-hashtag"><a href="http://joaoff.com/">João Ferreira</a><span>
+				</p>
+			</div>
 
-	<a href="https://github.com/damorim/lithium-slicer" target='_blank' class="list-group-item list-group-item-action">
-		Tandem-FL:
-	<small> Test Minimizer Based on Mozilla Lithium Tool</small>
-	</a>
-        </div>
-    </div>
-    <br/>
-    <div class="container">
-
-	   <br>	
-	           <h2 id="publications">Relevant Publications</h2>	
-	   		<br>	
-	   		<span class="badge badge-hashtag">2019</span>	
-	           <ul>	
-	   			<li>	
-	   				<p>	
-	     					Luis Cruz, Rui Abreu: <a href="https://link.springer.com/article/10.1007/s10664-019-09682-0">Catalog of energy patterns for mobile applications</a>. Empirical Software Engineering 					24(4): 2209-2235	
-	   				</p>	
-	   			</li>	
-
-	   			<li>	
-	   				<p>	
-	   						Luis Cruz, Rui Abreu, David Lo:	
-	   					<a href="https://link.springer.com/article/10.1007/s10664-019-09701-0">To the attention of mobile software developers: guess what, test your app!</a> Empirical Software Engineering 24(4): 2438-2468 (2019)	
-	   						</p>	
-	   			</li>	
+			<div class="col-md-3 element">
+				<img class="img-circle" src="img/ricardo_martins.jpg">
+				<p class="name">
+					<span class="badge badge-hashtag"><a
+							href="https://www.linkedin.com/in/ricardo-martins-566028117/">Ricardo Martins</a><span>
+				</p>
+			</div>
 
 
-	   			<li>	
-	   				<p>	
-	   					Luis Cruz, Rui Abreu:	
-	   					<a href="https://dl.acm.org/citation.cfm?id=3339132.3339176">EMaaS: energy measurements as a service for mobile applications.</a> ICSE (NIER) 2019: 101-104	
-	   				</p>	
-	   			</li>	
 
-	   			<li>	
-	   				<p>	
-	   					Sofia Reis, Rui Abreu, Marcelo d'Amorim:	
-	   							<a href="https://www.ijcai.org/proceedings/2019/661">Demystifying the Combination of Dynamic Slicing and Spectrum-based Fault Localization.</a> IJCAI 2019: 4760-4766	
-	   				</p>	
-	   			</li>	
-	   			<li>	
-	   				<p>	
-	   					Thomas Durieux, Fernanda Madeiral Delfim, Matias Martinez, Rui Abreu:	
-	   							<a href="https://dl.acm.org/citation.cfm?id=3338911">Empirical review of Java program repair tools: a large-scale experiment on 2, 141 bugs and 23, 551 repair attempts.</a> ESEC/SIGSOFT FSE 2019: 302-313	
-	   				</p>	
-	   			</li>	
-	   			<li>	
-	   				<p>	
-	   					Daniel Correia, Rui Abreu, Pedro Santos, João Nadkarni:	
-	   					<a href="https://dl.acm.org/citation.cfm?id=3341187">MOTSD: a multi-objective test selection tool using test suite diagnosability.</a> ESEC/SIGSOFT FSE 2019: 1070-1074	
-	   				</p>	
-	   			</li>	
-	   			<li>	
-	   								<p>Thomas Durieux, Rui Abreu, Martin Monperrus, Tegawendé F. Bissyandé, Luis Cruz:	
-	   				<a href="https://arxiv.org/abs/1904.09416">Interviewing the Most Successful Bot on GitHub: Dr Travis CI on 35+ Million of its Jobs. </a> arXiv:1904.09416 (2019)</p>	
-	   			</li>	
-	   			<li>	
-	   												<p>Thomas Durieux, Rui Abreu:	
-	   								<a href="https://arxiv.org/abs/1905.09375">Critical Review of BugSwarm for Fault Localization and Program Repair.</a> arXiv:1905.09375 (2019)</p>	
-	   			</li>	
-	   			<li>	
-	   												<p>Luis Cruz, Rui Abreu, John C. Grundy, Li Li, Xin Xia:	
-	   								<a href="https://xin-xia.github.io/publication/icsme191.pdf">Do Energy-oriented Changes Hinder Maintainability?</a> ICSME (2019)	
-	   								</p>	
-	   			</li>	
-	   			   </ul>	
+		</div>
+		<br>
+		<div class="row">
+			<div class="col-md-3 element">
+				<img class="img-circle" src="img/francisco.png">
+				<p class="name">
+					<span class="badge badge-hashtag"> <a
+							href="https://scholar.google.com/citations?user=zTLXgZgAAAAJ">Francisco Ribeiro</a></span>
+				</p>
+			</div>
+			<div class="col-md-3 element">
+				<img class="img-circle" src="img/nuno.jpg">
+				<p class="name">
+					<span class="badge badge-hashtag"> <a href="https://www.linkedin.com/in/nuno-sabino-4105a0123/">Nuno
+							Sabino</a> </span>
+				</p>
+			</div>
+			<div class="col-md-3 element">
+				<img class="img-circle"
+					src="https://media-exp1.licdn.com/dms/image/C4D03AQGM9deeVhh6gA/profile-displayphoto-shrink_800_800/0/1576884763179?e=1622073600&v=beta&t=xCfR31S0KWBfQxC_3QY1MQr8BnZljbKbuzvSIyynFDY">
+				<p class="name">
+					<span class="badge badge-hashtag"> <a
+							href="https://www.linkedin.com/in/david-coimbra-2b290812a/">David Coimbra</a> </span>
+				</p>
+			</div>
+
+			<div class="col-md-3 element">
+
+			</div>
+
+		</div>
+	</div>
+	<br />
+	<div class="container">
+		<br />
+
+		<h2 id="projects">Projects</h2>
+		<br />
+
+		<div class="list-group">
+			<a href="http://www.gzoltar.com" target='_blank' class="list-group-item list-group-item-action">
+				GZoltar
+				<small>Automatic Testing &amp; Debugging using Spectrum-based Fault Localization (SFL)</small>
+			</a>
+			<a href="https://tqrg.github.io/physalia/" target='_blank' class="list-group-item list-group-item-action">
+				Physalia
+				<small>Energy measurement framework for mobile apps</small>
+			</a>
+			<a href="https://tqrg.github.io/projects/leafactor.html" target='_blank'
+				class="list-group-item list-group-item-action">
+				Leafactor
+				<small>Automatic refactor for energy efficiency</small>
+			</a>
+			<a href="https://tqrg.github.io/energy-patterns/" target='_blank'
+				class="list-group-item list-group-item-action">
+				Energy Patterns
+				<small>open database of energy-related design patterns for mobile apps (iOS and Android)</small>
+			</a>
+			<a href="https://luiscruz.github.io/android_test_inspector/" target='_blank'
+				class="list-group-item list-group-item-action">
+				Android Test Inspector
+				<small>Android App Hall of Fame</small>
+			</a>
+			<a href="https://tqrg.github.io/pangolin/" target='_blank' class="list-group-item list-group-item-action">
+				Pangolin
+				<small>A software visualization toolset for feature localization</small>
+			</a>
+			<a href="https://tqrg.github.io/secbench/" target='_blank' class="list-group-item list-group-item-action">
+				SecBench:
+				<small>A Database of Existing Security Vulnerabilities to Enable Evaluation of Techniques</small>
+
+			</a>
+
+			<a href="https://tqrg.github.io/secom/" target='_blank' class="list-group-item list-group-item-action">
+				SECOM:
+				<small>Convention for Security Commit Messages</small>
+
+			</a>
+
+			<a href="https://github.com/damorim/lithium-slicer" target='_blank'
+				class="list-group-item list-group-item-action">
+				Tandem-FL:
+				<small> Test Minimizer Based on Mozilla Lithium Tool</small>
+			</a>
+		</div>
+	</div>
+	<br />
+	<div class="container">
+
+		<span class="badge badge-hashtag">2022</span>
+
+		<ul>
+			<li>
+				<p>
+					Sofia Reis, Rui Abreu, Hakan Erdogmus, Corina S. Păsăreanu: <a
+						href="https://conf.researchr.org/track/msr-2022/msr-2022-industry-track#event-overview">SECOM:
+						Towards a convention for security commit messages</a>. International Conference on Mining
+					Software Repositories (MSR'22) - Industry Track co-located with the
+					International Conference in Software Engineering (ICSE'22).
+				</p>
+			</li>
+		</ul>
+
+		<span class="badge badge-hashtag">2021</span>
+		<br>
+
+		<ul>
+			<li>
+				<p>
+					David Coimbra, Sofia Reis, Rui Abreu, Hakan Erdogmus, Corina S. Păsăreanu: <a
+						href="https://arxiv.org/pdf/2106.01367.pdf">On using distributed representations of source code
+						for the
+						detection of C security vulnerabilities</a>. International Workshop on Principles of Diagnosis
+					(DX'21).
+				</p>
+			</li>
+			<li>
+				<p>
+					Sofia Reis, Rui Abreu, Luis Cruz: <a
+						href="https://link.springer.com/article/10.1007/s10664-021-10019-z">Fixing vulnerabilities
+						potentially hinders maintainability</a>. Empirical Software Engineering 26, 127.
+				</p>
+			</li>
+			<li>
+				<p>
+					Rui Abreu, Franjo Ivancic, Filip Niksic, Hadi Ravanbakhsh, Ramesh Viswanathan: <a
+						href="https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9678606">Reducing Time-To-Fix For
+						Fuzzer Bugs</a>. IEEE/ACM International Conference on Automated Software Engineering (ASE'21).
+				</p>
+			</li>
+		</ul>
+		<br>
+
+		<span class="badge badge-hashtag">2020</span>
+		<br>
+
+		<ul>
+			<li>
+				<p>
+					Bruno Sotto-Mayor, Amir Mishali, Meir Kalech, Rui Abreu: <a
+						href="https://www.dx-2020.org/papers/DX-2020_paper_10.pdf">Exploring Designite for Smell-Based
+						Defect Prediction</a>. International Workshop on Principles of Diagnosis (DX'20).
+				</p>
+			</li>
+			<li>
+				<p>
+					Thomas Durieux, Claire Le Goues, Michael Hilton, Rui Abreu: <a
+						href="https://dl.acm.org/doi/abs/10.1145/3379597.3387460">Empirical Study of Restarted and Flaky
+						Builds on Travis CI</a>. International Conference on Mining Software Repositories (MSR'20).
+				</p>
+			</li>
+			<li>
+				<p>
+					Thomas Durieux, João F. Ferreira, Rui Abreu, Pedro Cruz: <a
+						href="https://dl.acm.org/doi/pdf/10.1145/3377811.3380364">Empirical Review of Automated Analysis
+						Tools on 47,587
+						Ethereum Smart Contracts</a>. IEEE/ACM International Conference on Software Engineering
+					(ICSE'20).
+				</p>
+			</li>
+		</ul>
+
+		<br>
+		<span class="badge badge-hashtag">2019</span>
+		<ul>
+			<li>
+				<p>
+					Luis Cruz, Rui Abreu: <a href="https://link.springer.com/article/10.1007/s10664-019-09682-0">Catalog
+						of energy patterns for mobile applications</a>. Empirical Software Engineering 24(4): 2209-2235
+				</p>
+			</li>
+
+			<li>
+				<p>
+					Luis Cruz, Rui Abreu, David Lo:
+					<a href="https://link.springer.com/article/10.1007/s10664-019-09701-0">To the attention of mobile
+						software developers: guess what, test your app!</a> Empirical Software Engineering 24(4):
+					2438-2468 (2019)
+				</p>
+			</li>
 
 
-	   	   		<br>	
-	   	   		<span class="badge badge-hashtag">2018</span>	
+			<li>
+				<p>
+					Luis Cruz, Rui Abreu:
+					<a href="https://dl.acm.org/citation.cfm?id=3339132.3339176">EMaaS: energy measurements as a service
+						for mobile applications.</a> ICSE (NIER) 2019: 101-104
+				</p>
+			</li>
 
-	   			    <ul>	
-	   			<li>	
-	   										<p>	Alexandre Perez, Rui Abreu:	
-	   								A qualitative reasoning approach to spectrum-based fault localization. ICSE (Companion Volume) 2018: 372-373	
-	   								</p>	
-	   			</li>	
-	   			<li>	
-	   					<p>Luis Cruz, Rui Abreu: Measuring the energy footprint of mobile testing frameworks. ICSE (Companion Volume) 2018: 400-401	
-	   										</p>	
-	   			</li>	
-
-	   			<li>	
-	   					<p>	Alexandre Perez, Rui Abreu:	
-	   Leveraging Qualitative Reasoning to Improve SFL. IJCAI 2018: 1935-1941	
-
-	   										</p>	
-	   			</li>	
-	   			   </ul>	
-
-
-	   	   		<br>	
-	   	   		<span class="badge badge-hashtag">2017</span>	
-
-	   			    <ul>	
-	   			<li>	
-	   					<p>	Sofia Reis, Rui Abreu:	
-	   A Database of Existing Vulnerabilities to Enable Controlled Testing Studies. IJSSE 8(3): 1-23 (2017)	
-
-	   										</p>	
-	   			</li>	
-
-	   			<li>	
-	   					<p>	Sofia Reis, Rui Abreu:	
-	   SECBENCH: A Database of Real Security Vulnerabilities. SecSE@ESORICS 2017: 69-85	
-
-	   										</p>	
-	   			</li>	
-
-	   			<li>	
-	   					<p>	Luis Cruz, Rui Abreu:	
-	   Performance-Based Guidelines for Energy Efficient Mobile Applications. MOBILESoft@ICSE 2017: 46-57	
-
-	   										</p>	
-	   			</li>	
-
-
-	   						<li>	
-	   								<p>	Luis Cruz, Rui Abreu, Jean-Noel Rouvignac:	
-	   Leafactor: Improving Energy Efficiency of Android Apps via Automatic Refactoring. MOBILESoft@ICSE 2017: 205-206	
-	   </p>	
-	   						</li>	
+			<li>
+				<p>
+					Sofia Reis, Rui Abreu, Marcelo d'Amorim:
+					<a href="https://www.ijcai.org/proceedings/2019/661">Demystifying the Combination of Dynamic Slicing
+						and Spectrum-based Fault Localization.</a> IJCAI 2019: 4760-4766
+				</p>
+			</li>
+			<li>
+				<p>
+					Thomas Durieux, Fernanda Madeiral Delfim, Matias Martinez, Rui Abreu:
+					<a href="https://dl.acm.org/citation.cfm?id=3338911">Empirical review of Java program repair tools:
+						a large-scale experiment on 2, 141 bugs and 23, 551 repair attempts.</a> ESEC/SIGSOFT FSE 2019:
+					302-313
+				</p>
+			</li>
+			<li>
+				<p>
+					Daniel Correia, Rui Abreu, Pedro Santos, João Nadkarni:
+					<a href="https://dl.acm.org/citation.cfm?id=3341187">MOTSD: a multi-objective test selection tool
+						using test suite diagnosability.</a> ESEC/SIGSOFT FSE 2019: 1070-1074
+				</p>
+			</li>
+			<li>
+				<p>Thomas Durieux, Rui Abreu, Martin Monperrus, Tegawendé F. Bissyandé, Luis Cruz:
+					<a href="https://arxiv.org/abs/1904.09416">Interviewing the Most Successful Bot on GitHub: Dr Travis
+						CI on 35+ Million of its Jobs. </a> arXiv:1904.09416 (2019)
+				</p>
+			</li>
+			<li>
+				<p>Thomas Durieux, Rui Abreu:
+					<a href="https://arxiv.org/abs/1905.09375">Critical Review of BugSwarm for Fault Localization and
+						Program Repair.</a> arXiv:1905.09375 (2019)
+				</p>
+			</li>
+			<li>
+				<p>Luis Cruz, Rui Abreu, John C. Grundy, Li Li, Xin Xia:
+					<a href="https://xin-xia.github.io/publication/icsme191.pdf">Do Energy-oriented Changes Hinder
+						Maintainability?</a> ICSME (2019)
+				</p>
+			</li>
+		</ul>
 
 
-	   									<li>	
-	   											<p>		Alexandre Perez, Rui Abreu, Arie van Deursen:	
-	   A test-suite diagnosability metric for spectrum-based fault localization approaches. ICSE 2017: 654-664	
+		<br>
+		<span class="badge badge-hashtag">2018</span>
 
-	   																</p>	
-	   									</li>	
+		<ul>
+			<li>
+				<p> Alexandre Perez, Rui Abreu:
+					A qualitative reasoning approach to spectrum-based fault localization. ICSE (Companion Volume) 2018:
+					372-373
+				</p>
+			</li>
+			<li>
+				<p>Luis Cruz, Rui Abreu: Measuring the energy footprint of mobile testing frameworks. ICSE (Companion
+					Volume) 2018: 400-401
+				</p>
+			</li>
+
+			<li>
+				<p> Alexandre Perez, Rui Abreu:
+					Leveraging Qualitative Reasoning to Improve SFL. IJCAI 2018: 1935-1941
+
+				</p>
+			</li>
+		</ul>
 
 
-	   												<li>	
-	   														<p>	Alexandre Perez, Rui Abreu, Marcelo d'Amorim:	
-	   Prevalence of Single-Fault Fixes and Its Impact on Fault Localization. ICST 2017: 12-22	
-	   </p>	
-	   												</li>	
-	   		</ul>	
+		<br>
+		<span class="badge badge-hashtag">2017</span>
 
-       
-      </div>
+		<ul>
+			<li>
+				<p> Sofia Reis, Rui Abreu:
+					A Database of Existing Vulnerabilities to Enable Controlled Testing Studies. IJSSE 8(3): 1-23 (2017)
 
-      <hr>
+				</p>
+			</li>
 
-      <footer class='container'>
-		<div class="row">	    
-				  <div class="col-md-6 text-left panel-title"><p>&copy; 2020 TQRG</p></div>	      
-				              <div class="col-md-6 text-right"><p>Follow our updates on:&nbsp;&nbsp;<a href="https://medium.com/@tqrg"><i class="fa fa-medium fa-lg"></i></a>&nbsp;&nbsp;<a href="https://github.com/TQRG"><i class="fa fa-github fa-lg"></i></a>&nbsp;&nbsp;<a href="https://twitter.com/tqrg_"><i class="fa fa-twitter fa-lg"></i></a></p></div>	
-				   </div>
-      </footer>
-      
+			<li>
+				<p> Sofia Reis, Rui Abreu:
+					SECBENCH: A Database of Real Security Vulnerabilities. SecSE@ESORICS 2017: 69-85
 
-        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/js/bootstrap.min.js" integrity="sha384-a5N7Y/aK3qNeh15eJKGWxsqtnX/wWdSZSKp+81YjTmS15nvnvxKHuzaWwXHDli+4" crossorigin="anonymous"></script>
-        <script src="js/main.js"></script>
-    </body>
+				</p>
+			</li>
+
+			<li>
+				<p> Luis Cruz, Rui Abreu:
+					Performance-Based Guidelines for Energy Efficient Mobile Applications. MOBILESoft@ICSE 2017: 46-57
+
+				</p>
+			</li>
+
+
+			<li>
+				<p> Luis Cruz, Rui Abreu, Jean-Noel Rouvignac:
+					Leafactor: Improving Energy Efficiency of Android Apps via Automatic Refactoring. MOBILESoft@ICSE
+					2017: 205-206
+				</p>
+			</li>
+
+
+			<li>
+				<p> Alexandre Perez, Rui Abreu, Arie van Deursen:
+					A test-suite diagnosability metric for spectrum-based fault localization approaches. ICSE 2017:
+					654-664
+
+				</p>
+			</li>
+
+
+			<li>
+				<p> Alexandre Perez, Rui Abreu, Marcelo d'Amorim:
+					Prevalence of Single-Fault Fixes and Its Impact on Fault Localization. ICST 2017: 12-22
+				</p>
+			</li>
+		</ul>
+
+
+	</div>
+
+	<hr>
+
+	<footer class='container'>
+		<div class="row">
+			<div class="col-md-6 text-left panel-title">
+				<p>&copy; 2020 TQRG</p>
+			</div>
+			<div class="col-md-6 text-right">
+				<p>Follow our updates on:&nbsp;&nbsp;<a href="https://medium.com/@tqrg"><i
+							class="fa fa-medium fa-lg"></i></a>&nbsp;&nbsp;<a href="https://github.com/TQRG"><i
+							class="fa fa-github fa-lg"></i></a>&nbsp;&nbsp;<a href="https://twitter.com/tqrg_"><i
+							class="fa fa-twitter fa-lg"></i></a></p>
+			</div>
+		</div>
+	</footer>
+
+
+	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+		integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+		crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+		integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+		crossorigin="anonymous"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/js/bootstrap.min.js"
+		integrity="sha384-a5N7Y/aK3qNeh15eJKGWxsqtnX/wWdSZSKp+81YjTmS15nvnvxKHuzaWwXHDli+4"
+		crossorigin="anonymous"></script>
+	<script src="js/main.js"></script>
+</body>
+
 </html>
